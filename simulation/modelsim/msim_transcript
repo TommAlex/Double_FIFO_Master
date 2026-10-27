@@ -1,0 +1,216 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do MC_FIFO_Master_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/fifo_pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:58 on Oct 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/fifo_pll.v 
+# -- Compiling module fifo_pll
+# 
+# Top level modules:
+# 	fifo_pll
+# End time: 10:26:58 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/MC_FIFO_M_FT601/db {Z:/MC_FIFO_M_FT601/db/fifo_pll_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:58 on Oct 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/MC_FIFO_M_FT601/db" Z:/MC_FIFO_M_FT601/db/fifo_pll_altpll.v 
+# -- Compiling module fifo_pll_altpll
+# 
+# Top level modules:
+# 	fifo_pll_altpll
+# End time: 10:26:58 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/freq_watchdog.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:58 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/freq_watchdog.sv 
+# -- Compiling module freq_watchdog
+# 
+# Top level modules:
+# 	freq_watchdog
+# End time: 10:26:59 on Oct 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/pwm_pulse.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:59 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/pwm_pulse.sv 
+# -- Compiling module pwm_pulse
+# 
+# Top level modules:
+# 	pwm_pulse
+# End time: 10:26:59 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:59 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv 
+# -- Compiling module MC_FIFO_Master
+# 
+# Top level modules:
+# 	MC_FIFO_Master
+# End time: 10:26:59 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:59 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv 
+# -- Compiling module MC_FIFO_Counter
+# 
+# Top level modules:
+# 	MC_FIFO_Counter
+# End time: 10:26:59 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:59 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv 
+# -- Compiling package MC_FIFO_Controller_sv_unit
+# -- Compiling module MC_FIFO_Controller
+# 
+# Top level modules:
+# 	MC_FIFO_Controller
+# End time: 10:26:59 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/tb_MC_FIFO_Master.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:26:59 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/tb_MC_FIFO_Master.sv 
+# -- Compiling module tb_MC_FIFO_Master
+# 
+# Top level modules:
+# 	tb_MC_FIFO_Master
+# End time: 10:27:00 on Oct 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/freq_watchdog.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:27:00 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/freq_watchdog.sv 
+# -- Compiling module freq_watchdog
+# 
+# Top level modules:
+# 	freq_watchdog
+# End time: 10:27:00 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/pwm_pulse.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:27:00 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/pwm_pulse.sv 
+# -- Compiling module pwm_pulse
+# 
+# Top level modules:
+# 	pwm_pulse
+# End time: 10:27:00 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:27:00 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv 
+# -- Compiling module MC_FIFO_Counter
+# 
+# Top level modules:
+# 	MC_FIFO_Counter
+# End time: 10:27:00 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:27:00 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv 
+# -- Compiling package MC_FIFO_Controller_sv_unit
+# -- Compiling module MC_FIFO_Controller
+# 
+# Top level modules:
+# 	MC_FIFO_Controller
+# End time: 10:27:00 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+Z:/MC_FIFO_M_FT601 {Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:27:00 on Oct 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/MC_FIFO_M_FT601" Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv 
+# -- Compiling module MC_FIFO_Master
+# 
+# Top level modules:
+# 	MC_FIFO_Master
+# End time: 10:27:00 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_MC_FIFO_Master
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_MC_FIFO_Master 
+# Start time: 10:27:01 on Oct 11,2026
+# Loading sv_std.std
+# Loading work.tb_MC_FIFO_Master
+# Loading work.MC_FIFO_Master
+# Loading work.freq_watchdog
+# Loading work.fifo_pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.MC_FIFO_Controller_sv_unit
+# Loading work.MC_FIFO_Controller
+# Loading work.pwm_pulse
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading work.MC_FIFO_Counter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# [TB INFO] Starting TEST 1: FPGA Write to FT60X (Counter Mode)
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 18545000  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+restart -f
+run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# [TB INFO] Starting TEST 1: FPGA Write to FT60X (Counter Mode)
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 18545000  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+clear
+# invalid command name "clear"
+restart -f
+run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# [TB INFO] Starting TEST 1: FPGA Write to FT60X (Counter Mode)
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 18545000  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+restart -f
+run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# [TB INFO] Starting TEST 1: FPGA Write to FT60X (Counter Mode)
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 18545000  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+restart -f
+run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# [TB INFO] Starting TEST 1: FPGA Write to FT60X (Counter Mode)
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 18545000  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+restart -f
+run -all
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# [TB INFO] Starting TEST 1: FPGA Write to FT60X (Counter Mode)
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 18545000  Instance: tb_MC_FIFO_Master.dut.fifo_pll_inst.altpll_component.cycloneiii_pll.pll3
+# End time: 11:07:09 on Oct 11,2026, Elapsed time: 0:40:08
+# Errors: 1, Warnings: 0

@@ -1,0 +1,233 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/MC_FIFO_M_FT601/simulation/modelsim
+vfifo_pll
+Z1 !s110 1791703618
+!i10b 1
+!s100 d23KkK=M_JDgij84eoIEV2
+InD9zb:EnzY[5`eQ3L8O]@0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1791617885
+8Z:/MC_FIFO_M_FT601/fifo_pll.v
+FZ:/MC_FIFO_M_FT601/fifo_pll.v
+L0 39
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1791703618.000000
+!s107 Z:/MC_FIFO_M_FT601/fifo_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/fifo_pll.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+Z:/MC_FIFO_M_FT601
+Z6 tCvgOpt 0
+vfifo_pll_altpll
+R1
+!i10b 1
+!s100 PLEdJREP:QBzGcoQ^1M[01
+I18B2[lTbm>^X:@dnhdnla0
+R2
+R0
+w1791619315
+8Z:/MC_FIFO_M_FT601/db/fifo_pll_altpll.v
+FZ:/MC_FIFO_M_FT601/db/fifo_pll_altpll.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/MC_FIFO_M_FT601/db/fifo_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/MC_FIFO_M_FT601/db|Z:/MC_FIFO_M_FT601/db/fifo_pll_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+Z:/MC_FIFO_M_FT601/db
+R6
+vfreq_watchdog
+Z7 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z8 !s110 1791703620
+!i10b 1
+!s100 lnRAER2MH;Peg[8C8FD370
+IMQ3KWLoKJ8jHfW2@_UTJJ2
+R2
+!s105 freq_watchdog_sv_unit
+S1
+R0
+w1791622568
+8Z:/MC_FIFO_M_FT601/freq_watchdog.sv
+FZ:/MC_FIFO_M_FT601/freq_watchdog.sv
+L0 6
+R3
+r1
+!s85 0
+31
+Z9 !s108 1791703620.000000
+!s107 Z:/MC_FIFO_M_FT601/freq_watchdog.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/freq_watchdog.sv|
+!i113 1
+Z10 o-sv -work work
+Z11 !s92 -sv -work work +incdir+Z:/MC_FIFO_M_FT601
+R6
+vMC_FIFO_Controller
+R7
+DXx4 work 26 MC_FIFO_Controller_sv_unit 0 22 go7Rmilg`3k:=<P53QE7K3
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 1WdHRn8eI01IYenU<KFN93
+I<gQSbdLAA3g;^KJ9VKg>S2
+!s105 MC_FIFO_Controller_sv_unit
+S1
+R0
+Z12 w1791629218
+Z13 8Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv
+Z14 FZ:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv
+Z15 L0 10
+R3
+R9
+Z16 !s107 Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv|
+Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/MC_FIFO_Controller.sv|
+!i113 1
+R10
+R11
+R6
+n@m@c_@f@i@f@o_@controller
+XMC_FIFO_Controller_sv_unit
+R7
+Vgo7Rmilg`3k:=<P53QE7K3
+r1
+!s85 0
+31
+!i10b 1
+!s100 E5U;n91KemSFXVhJ@kGAZ3
+Igo7Rmilg`3k:=<P53QE7K3
+!i103 1
+S1
+R0
+R12
+R13
+R14
+L0 8
+R3
+R9
+R16
+R17
+!i113 1
+R10
+R11
+R6
+n@m@c_@f@i@f@o_@controller_sv_unit
+vMC_FIFO_Counter
+R7
+R8
+!i10b 1
+!s100 2:DZzk=j_jzeALI_<=E1o2
+I^oA3UEAo9iTKZ1:;2fWZ[2
+R2
+!s105 MC_FIFO_Counter_sv_unit
+S1
+R0
+w1791700292
+8Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv
+FZ:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv
+L0 7
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/MC_FIFO_Counter.sv|
+!i113 1
+R10
+R11
+R6
+n@m@c_@f@i@f@o_@counter
+vMC_FIFO_Master
+R7
+R8
+!i10b 1
+!s100 nOz<8L^0GP?iF_4Nz@<mX3
+I3@]H_W`<TW4311NbeVfc?0
+R2
+!s105 MC_FIFO_Master_sv_unit
+S1
+R0
+w1791701220
+8Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv
+FZ:/MC_FIFO_M_FT601/MC_FIFO_Master.sv
+R15
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/MC_FIFO_Master.sv|
+!i113 1
+R10
+R11
+R6
+n@m@c_@f@i@f@o_@master
+vpwm_pulse
+R7
+R8
+!i10b 1
+!s100 GBKK^k<]3LTHojT5aDg0C2
+IozPVgQGdXJD?53;h>[lZc0
+R2
+!s105 pwm_pulse_sv_unit
+S1
+R0
+w1791554317
+8Z:/MC_FIFO_M_FT601/pwm_pulse.sv
+FZ:/MC_FIFO_M_FT601/pwm_pulse.sv
+L0 5
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/MC_FIFO_M_FT601/pwm_pulse.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/pwm_pulse.sv|
+!i113 1
+R10
+R11
+R6
+vtb_MC_FIFO_Master
+R7
+R8
+!i10b 1
+!s100 [;02T_C>gfMj<034?U^A63
+IO1FJbV>2KdS`oXMY16YM31
+R2
+!s105 tb_MC_FIFO_Master_sv_unit
+S1
+R0
+w1791703504
+8Z:/MC_FIFO_M_FT601/tb_MC_FIFO_Master.sv
+FZ:/MC_FIFO_M_FT601/tb_MC_FIFO_Master.sv
+R15
+R3
+r1
+!s85 0
+31
+!s108 1791703619.000000
+!s107 Z:/MC_FIFO_M_FT601/tb_MC_FIFO_Master.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/MC_FIFO_M_FT601|Z:/MC_FIFO_M_FT601/tb_MC_FIFO_Master.sv|
+!i113 1
+R10
+R11
+R6
+ntb_@m@c_@f@i@f@o_@master

@@ -1,0 +1,99 @@
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FT601_RESET_N
+#set_location_assignment PIN_AA11 -to CLK_FIFO
+set_location_assignment PIN_W2 -to BE[3]
+set_location_assignment PIN_Y1 -to BE[2]
+set_location_assignment PIN_Y2 -to BE[1]
+set_location_assignment PIN_AA1 -to BE[0]
+set_location_assignment PIN_Y3 -to DATA[31]
+set_location_assignment PIN_AA3 -to DATA[30]
+set_location_assignment PIN_AB3 -to DATA[29]
+set_location_assignment PIN_AA4 -to DATA[28]
+set_location_assignment PIN_AB4 -to DATA[27]
+set_location_assignment PIN_AA5 -to DATA[26]
+set_location_assignment PIN_AB5 -to DATA[25]
+set_location_assignment PIN_AA6 -to DATA[24]
+set_location_assignment PIN_AB6 -to DATA[23]
+set_location_assignment PIN_AA7 -to DATA[22]
+set_location_assignment PIN_AB7 -to DATA[21]
+set_location_assignment PIN_AA8 -to DATA[20]
+set_location_assignment PIN_AB8 -to DATA[19]
+set_location_assignment PIN_AA9 -to DATA[18]
+set_location_assignment PIN_AB9 -to DATA[17]
+set_location_assignment PIN_AB10 -to DATA[16]
+set_location_assignment PIN_V9 -to DATA[15]
+set_location_assignment PIN_W10 -to DATA[14]
+set_location_assignment PIN_AA10 -to DATA[13]
+set_location_assignment PIN_U11 -to DATA[12]
+set_location_assignment PIN_U10 -to DATA[11]
+set_location_assignment PIN_Y10 -to DATA[10]
+set_location_assignment PIN_W7 -to DATA[9]
+set_location_assignment PIN_V11 -to DATA[8]
+set_location_assignment PIN_Y8 -to DATA[7]
+set_location_assignment PIN_V5 -to DATA[6]
+set_location_assignment PIN_U9 -to DATA[5]
+set_location_assignment PIN_W8 -to DATA[4]
+set_location_assignment PIN_W6 -to DATA[3]
+set_location_assignment PIN_V8 -to DATA[2]
+set_location_assignment PIN_Y4 -to DATA[1]
+set_location_assignment PIN_Y6 -to DATA[0]
+set_location_assignment PIN_V2 -to RXF_N
+set_location_assignment PIN_U2 -to WR_N
+set_location_assignment PIN_B12 -to clk_106MHz
+set_location_assignment PIN_G1 -to clk_56MHz
+set_location_assignment PIN_N21 -to LED[1]
+set_location_assignment PIN_F1 -to LED[2]
+set_location_assignment PIN_F2 -to LED[3]
+set_location_assignment PIN_N22 -to LED[0]
+set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to clk_106MHz
+set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to clk_56MHz
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:11:39  APRIL 09, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
+set_global_assignment -name OPTIMIZATION_MODE "HIGH PERFORMANCE EFFORT"
+set_global_assignment -name ALLOW_REGISTER_RETIMING OFF
+set_global_assignment -name TOP_LEVEL_ENTITY DOUBLE_FIFO_Master
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
+set_global_assignment -name DEVICE EP4CE75F23C7
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_location_assignment PIN_R3 -to FT601_RESET_N
+set_location_assignment PIN_AA11 -to CLK_FIFO
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name SYSTEMVERILOG_FILE DOUBLE_FIFO_Buffer.sv
+set_global_assignment -name SDC_FILE Double_FIFO_Master.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE reset_seq.sv
+set_global_assignment -name SYSTEMVERILOG_FILE indicator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE DOUBLE_FIFO_Controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE DOUBLE_FIFO_Master.sv
+set_global_assignment -name SYSTEMVERILOG_FILE freq_watchdog.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pwm_pulse.sv
+set_global_assignment -name QIP_FILE fifo_pll.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
